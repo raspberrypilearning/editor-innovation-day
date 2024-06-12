@@ -1,5 +1,3 @@
-# Challenge 1
-
 from random import randint, seed
 
 # Generate a test input of a bunch of random numbers
