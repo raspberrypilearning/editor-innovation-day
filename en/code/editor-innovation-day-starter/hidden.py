@@ -12,8 +12,8 @@ class Puzzle():
         """
         Sets the secret input for the given step
         """
-        if self.step == 1 or self.step == 2:
-            self.secret = [randint(0,1000) for i in range(40)]
+        if self.step > 0:
+            self.secret = [randint(0,1000) for i in range(10)]
         else:
             print(f"Error initialising challenge {self.step}")
 
@@ -31,6 +31,9 @@ class Puzzle():
             return max(self.secret)
         elif self.step == 2:
             return min(self.secret)
+        elif self.step == 3:
+            new_list = [n%2==0 for n in self.secret]
+            return new_list.count(True)
         else:
             print(f"Error calculating answer for {self.step}")
 
