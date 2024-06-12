@@ -4,7 +4,7 @@ from random import randint, seed
 secret = [randint(0,1000) for i in range(40)]
 
 def view_input():
-    print(secret)
+    return secret
 
 # Trivial example - calculate the largest number
 def calculate_solution(current_input):

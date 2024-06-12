@@ -1,9 +1,12 @@
 from hidden import *
 
-view_input()
+# Here is a list of randomly generated numbers
+numbers = view_input()
+print(numbers)
 
-# Calculate the largest number, then test your solution
-# by typing it in the brackets
-# e.g. test_my_answer(0)
+# Write some code to calculate the largest number in the list
+answer = 0
 
-test_my_answer()
+
+# Set the variable 'answer' to your answer
+test_my_answer(answer)
