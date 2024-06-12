@@ -7,6 +7,6 @@ puzzle = Puzzle(1)
 numbers = puzzle.get_input()
 
 # Set the variable 'answer' to your answer
-answer = "ere"
+answer = None
 
 puzzle.test_answer(answer)
