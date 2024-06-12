@@ -1,3 +1,5 @@
+# Challenge 1
+
 from random import randint, seed
 
 # Generate a test input of a bunch of random numbers
@@ -12,8 +14,8 @@ def calculate_solution(current_input):
 
 # Test their solution
 def test_my_answer(answer=None):
-    if answer is None:
-        print("Put your answer in the brackets, e.g. test_my_answer(0)")
+    if answer is None or answer == 0:
+        print("The variable 'answer' should contain your solution")
     elif answer == calculate_solution(secret):
         print("Well done, you are correct!")
     else:
