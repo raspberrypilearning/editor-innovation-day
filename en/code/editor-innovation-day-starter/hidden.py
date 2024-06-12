@@ -12,11 +12,10 @@ class Puzzle():
         """
         Sets the secret input for the given step
         """
-        match self.step:
-            case 1 | 2:
-                self.secret = [randint(0,1000) for i in range(40)]
-            case _:
-                print(f"Error initialising challenge {self.step}")
+        if self.step == 1 or self.step == 2:
+            self.secret = [randint(0,1000) for i in range(40)]
+        else:
+            print(f"Error initialising challenge {self.step}")
 
     def get_input(self):
         """
@@ -28,13 +27,12 @@ class Puzzle():
         """
         Calculates the solution for the current step
         """
-        match self.step:
-            case 1:
-                return max(self.secret)
-            case 2:
-                return min(self.secret)
-            case _:
-                print(f"Error calculating answer for {self.step}")
+        if self.step == 1:
+            return max(self.secret)
+        elif self.step == 2:
+            return min(self.secret)
+        else:
+            print(f"Error calculating answer for {self.step}")
 
     def test_answer(self, answer=None):
         """

@@ -1,23 +1,22 @@
-## Step title
-
-Add an introductory sentence. What will learners achieve by the end of this step?
+<h2 class="c-project-heading--task">Smallest number</h2>
 
 --- task ---
-
-If working **online**, open the [starter project](https://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
- 
-If working **offline**, open the project [starter file](https://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
-
-You should see...
- 
-![starter project](images/starter_project.png)
+➡️ Change the puzzle number to 2
+➡️ Calculate the smallest number in the `numbers` list. 
 
 --- /task ---
 
---- task ---
+Change the puzzle number to 2 before you begin.
 
-Step content...
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 4
+---
+puzzle = Puzzle(2)
+--- /code ---
 
---- /task ---
+</div>
 
---- save ---

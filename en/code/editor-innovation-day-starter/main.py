@@ -1,8 +1,6 @@
-# Challenge 1
-# -------------------------
-
 from hidden import Puzzle
 
+# The number of the puzzle
 puzzle = Puzzle(1)
 
 # A list of randomly generated numbers
