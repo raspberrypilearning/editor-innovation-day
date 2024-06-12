@@ -14,7 +14,7 @@ def calculate_solution(current_input):
 def test_my_answer(answer=None):
     if answer is None:
         print("Put your answer in the brackets, e.g. test_my_answer(0)")
-    elif answer == calculate_solution(secret)
+    elif answer == calculate_solution(secret):
         print("Well done, you are correct!")
     else:
         print("Sorry, you're wrong. Try again!")
