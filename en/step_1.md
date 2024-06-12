@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Advent of Code Editor</h2>
+<h2 class="c-project-heading--task">Code Challenge</h2>
 
 --- task ---
 
