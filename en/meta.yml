@@ -1,0 +1,11 @@
+title: Innovation day test project
+hero_image: images/banner.png
+description: A test project for innovation day
+version: 4
+listed: false
+copyedit: false
+last_tested: "2024-06-12"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
