@@ -54,6 +54,8 @@ class Puzzle():
         elif answer == self.calculate_solution():
             print(f"Your answer was: {answer}")
             print(f"Well done, you got puzzle {self.step} correct!")
+            if self.step < 3:
+                print(f"Move on to the next step to begin challenge {self.step+1}")
         else:
             print(f"Your answer was: {answer}")
             print(f"Sorry, you're wrong.")
