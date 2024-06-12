@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Draw the rest of the owl</h2>
+<h2 class="c-project-heading--task">Puzzle #3: How many are even?</h2>
 
 --- task ---
 ➡️ Change the puzzle number to 3

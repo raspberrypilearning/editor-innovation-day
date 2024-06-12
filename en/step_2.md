@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Largest number</h2>
+<h2 class="c-project-heading--task">Puzzle #1: Largest number</h2>
 
 --- task ---
 

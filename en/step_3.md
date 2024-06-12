@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Smallest number</h2>
+<h2 class="c-project-heading--task">Puzzle #2: Smallest number</h2>
 
 --- task ---
 ➡️ Change the puzzle number to 2
