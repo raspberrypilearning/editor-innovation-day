@@ -2,7 +2,7 @@
 
 --- task ---
 ➡️ Change the puzzle number to 2
-➡️ Calculate the smallest number in the `numbers` list. 
+➡️ Find the smallest number in the `numbers` list. 
 
 --- /task ---
 

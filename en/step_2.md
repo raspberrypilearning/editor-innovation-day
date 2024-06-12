@@ -4,7 +4,7 @@
 
 You have been given a list of randomly generated numbers.
 
-➡️ Calculate the largest number in the `numbers` list. 
+➡️ Find the largest number in the `numbers` list. 
 ➡️ Put your answer in the `answer` variable.
 
 --- /task ---

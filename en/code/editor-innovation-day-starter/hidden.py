@@ -5,7 +5,7 @@ class Puzzle():
     def __init__(self, step):
         self.step = step
         self.secret = None
-        self.description = {1: "Find the largest number", 2: "Find the smallest number", 3: "Add up how many of the numbers are even"}
+        self.description = {1: "Find the largest number", 2: "Find the smallest number", 3: "How many of the numbers are even"}
 
         self.set_input() # Init input according to the step
     
