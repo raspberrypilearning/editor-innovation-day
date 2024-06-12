@@ -1,6 +1,7 @@
-from .hidden import test_solution
+from hidden import *
 
-print("Let's innovate!")
+view_input()
 
-test_solution(5)
-test_solution(1)
+# Calculate the largest number, then test your solution
+
+test_my_answer()
