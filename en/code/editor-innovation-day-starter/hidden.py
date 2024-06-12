@@ -5,6 +5,7 @@ class Puzzle():
     def __init__(self, step):
         self.step = step
         self.secret = None
+        self.description = {1: "Find the largest number", 2: "Find the smallest number", 3: "Add up how many of the numbers are even"}
 
         self.set_input() # Init input according to the step
     
@@ -16,6 +17,9 @@ class Puzzle():
             self.secret = [randint(0,1000) for i in range(10)]
         else:
             print(f"Error initialising challenge {self.step}")
+    
+    def get_description(self):
+        return self.description[self.step]
 
     def get_input(self):
         """
@@ -41,14 +45,20 @@ class Puzzle():
         """
         Checks the answer provided
         """
-        print(f"Attempting puzzle #{self.step}")
+        print(f"------------------------------")
+        print(f"Puzzle #{self.step} - {self.get_description()}")
+        print(f"The input was: {self.secret}")
         print(f"------------------------------")
         if answer is None:
             print("The variable 'answer' should contain your solution")
         elif answer == self.calculate_solution():
+            print(f"Your answer was: {answer}")
             print(f"Well done, you got puzzle {self.step} correct!")
         else:
-            print(f"Sorry, you're wrong. You entered {answer}.")
+            print(f"Your answer was: {answer}")
+            print(f"Sorry, you're wrong.")
+            if type(answer) is not type(self.calculate_solution()):
+                print(f"Your answer was a {type(answer).__name__}, but it should be {type(self.calculate_solution()).__name__}")
 
 
    
