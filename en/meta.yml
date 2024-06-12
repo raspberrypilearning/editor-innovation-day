@@ -6,6 +6,7 @@ listed: false
 copyedit: false
 last_tested: "2024-06-12"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Starter code
+  - title: Largest number
+  - title: Smallest number
+  - title: How many are even?

@@ -1,22 +1,28 @@
-<h2 class="c-project-heading--task">Smallest number</h2>
+<h2 class="c-project-heading--task">Largest number</h2>
 
 --- task ---
-➡️ Change the puzzle number to 2
-➡️ Calculate the smallest number in the `numbers` list. 
+
+You have been given a list of randomly generated numbers.
+
+➡️ Calculate the largest number in the `numbers` list. 
+➡️ Put your answer in the `answer` variable.
 
 --- /task ---
 
-Change the puzzle number to 2 before you begin.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 4
----
-puzzle = Puzzle(2)
---- /code ---
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Use Python's `max()` function.
 
 </div>
 
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+Make sure you set the variable `answer` to your answer.
+
+</div>
