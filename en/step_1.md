@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Largest number</h2>
+<h2 class="c-project-heading--task">Advent of Code Editor</h2>
 
 --- task ---
 
