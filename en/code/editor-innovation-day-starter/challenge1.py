@@ -1,14 +1,15 @@
 # Challenge 1
 # -------------------------
 
-from hidden import *
+from hidden import Challenge
+
+challenge = Challenge(1)
 
 # A list of randomly generated numbers
-numbers = view_input()
+numbers = challenge.get_input()
 print(numbers)
 
 # Set the variable 'answer' to your answer
-answer = 0
+answer = None
 
-
-test_my_answer(answer)
+challenge.test_answer(answer)
