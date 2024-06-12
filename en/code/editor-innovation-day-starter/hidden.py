@@ -41,10 +41,12 @@ class Puzzle():
         """
         Checks the answer provided
         """
+        print(f"Attempting puzzle #{self.step}")
+        print(f"------------------------------")
         if answer is None:
             print("The variable 'answer' should contain your solution")
         elif answer == self.calculate_solution():
-            print("Well done, you are correct!")
+            print(f"Well done, you got puzzle {self.step} correct!")
         else:
             print(f"Sorry, you're wrong. You entered {answer}.")
 
