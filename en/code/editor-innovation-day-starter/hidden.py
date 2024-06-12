@@ -1,6 +1,6 @@
 from random import randint
 
-class Challenge():
+class Puzzle():
 
     def __init__(self, step):
         self.step = step
@@ -45,7 +45,7 @@ class Challenge():
         elif answer == self.calculate_solution():
             print("Well done, you are correct!")
         else:
-            print("Sorry, you're wrong. Try again!")
+            print(f"Sorry, you're wrong. You entered {answer}.")
 
 
    

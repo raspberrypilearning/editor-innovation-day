@@ -1,15 +1,15 @@
 # Challenge 2
 # -------------------------
 
-from hidden import Challenge
+from hidden import Puzzle
 
-challenge = Challenge(2)
+puzzle = Puzzle(2)
 
 # A list of randomly generated numbers
-numbers = challenge.get_input()
+numbers = puzzle.get_input()
 print(numbers)
 
 # Set the variable 'answer' to your answer
 answer = None
 
-challenge.test_answer(answer)
+puzzle.test_answer(answer)
